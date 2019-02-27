@@ -5,8 +5,8 @@ function HeaderTitle() {
     return (
         <div className="headerTitle">
         <h1>Lambda School</h1>
-        <h2> @lambda School</h2>
-        <date>27 February</date>  
+        <p> @lambda School</p>
+        <p>27 February</p>  
         </div>
     )
 }

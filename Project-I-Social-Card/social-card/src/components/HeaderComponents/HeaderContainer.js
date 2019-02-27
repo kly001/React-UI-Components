@@ -8,9 +8,9 @@ import ImageThumbnail from "./ImageThumbnail";
 function HeaderContainer() {
     return(
         <div className="headerContainer">
-        <HeaderContent />
-        <HeaderTitle />
         <ImageThumbnail /> 
+        <HeaderTitle />
+        <HeaderContent />
         </div>
     )
 }
