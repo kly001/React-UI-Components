@@ -8,8 +8,8 @@ import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
 const App = () => {
   return (
     <div>
-     <CardContainer />
-     <HeaderContainer />
+      <HeaderContainer />
+      <CardContainer />
     </div>
   );
 };
