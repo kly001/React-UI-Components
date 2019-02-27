@@ -3,13 +3,14 @@ import './App.css';
 
 import CardContainer from "./components/CardComponents/CardContainer";
 import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
-
+import FooterContainer from "./components/FooterComponents/Footer";
 
 const App = () => {
   return (
     <div>
       <HeaderContainer />
       <CardContainer />
+      <FooterContainer />
     </div>
   );
 };
