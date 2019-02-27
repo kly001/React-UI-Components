@@ -1,15 +1,19 @@
 /* All styles for your Card Components live here */
-.cardContent {
+.cardContainer {
     margin-left: 100px;
+    width: 650px;
+    border: 1px solid gray;
+}
+
+.cardContent {
     width: 650px;
     /* border: 4px solid brown; */
 }
 .bannerImage {
-    margin-left: 100px;
     width: 650px;
     /* border: 5px solid yellow; */
 }
-email {
+.email {
     margin-left: 15px;
     color: gray;
 }

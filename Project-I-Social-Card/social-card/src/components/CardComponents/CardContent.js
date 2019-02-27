@@ -10,7 +10,7 @@ function CardContent() {
         UIs.  Design simple views for each state in
         your application
         </p>
-        <email>reactjs.org</email>
+        <div className="email">reactjs.org</div>
         </div>
     )
 }
