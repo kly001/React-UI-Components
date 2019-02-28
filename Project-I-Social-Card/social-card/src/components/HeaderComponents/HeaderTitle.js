@@ -4,6 +4,7 @@ import './Header.css';
 
 function HeaderTitle() {
     let d = new Date();
+   console.log(d)
     return (
         <div className="headerTitle">
         <h1>Lambda School</h1>
