@@ -18,6 +18,12 @@
  .headerTitle p {
     color: gray;
 }
+.dot {
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: gray;
+}
 
 .headerContent{
     margin-top: -10px;
