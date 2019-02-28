@@ -1,7 +1,8 @@
 /* All styles for your header Components live here */
 .logo {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
     /* border: 3px dashed blue; */
 }
 
@@ -9,9 +10,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: -90px;
-    margin-left: 100px;
-    width: 650px;
+    margin-top: -70px;
+    margin-left: 45px;
+    width: 550px;
     /* border: 5px dotted green; */
 }
  .headerTitle p {
@@ -19,10 +20,14 @@
 }
 
 .headerContent{
-    margin-left: 100px;
-    width: 650px;
+    margin-top: -10px;
+    margin-left: 45px;
+    width: 500px;
     /* border: 2px solid red; */
 }
+
 h1, h2, p{
     margin-left: 15px;
+    line-height:1.5;
+    font-size: 0.85rem;
 }
