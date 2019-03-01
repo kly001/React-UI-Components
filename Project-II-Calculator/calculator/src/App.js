@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import ButtonContainer from "./components/ButtonComponents/ButtonContainer";
-import CalculatorDisplay from "./componentd/DisplayComponents/CalculatorDisplay";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 
 
 
