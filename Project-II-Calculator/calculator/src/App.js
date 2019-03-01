@@ -9,8 +9,8 @@ import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay"
 const App = () => {
   return (
     <div>
-      <ButtonContainer />
       <CalculatorDisplay />
+      <ButtonContainer />
     </div>
   );
 };
