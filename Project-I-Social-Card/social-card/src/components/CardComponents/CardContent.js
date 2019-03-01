@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-function CardContent() {
+const CardContent = () => {
     return(
         <div className="cardContent">
         <h2>Get started with React</h2>

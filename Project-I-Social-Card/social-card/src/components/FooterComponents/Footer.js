@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-function FooterContainer() {
+const FooterContainer = () => {
     return (
         <div className="footerIcons">
          <a className="comment"href=""><i className="fa fa-comment-o"></i></a>

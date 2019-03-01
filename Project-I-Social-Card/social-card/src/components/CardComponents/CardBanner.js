@@ -1,7 +1,10 @@
 import React from 'react';
 import './Card.css';
 
-function CardBanner() {
+// function CardBanner() {
+    //NOTE: Changed all functions to arrow syntax.
+    
+    const CardBanner = () => {
     return(
         <div className="bannerLink">
         <a className="cardBannerLink" href="https://www.reactjs.org">
