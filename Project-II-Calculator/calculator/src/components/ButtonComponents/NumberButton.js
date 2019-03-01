@@ -3,16 +3,20 @@ import './Button.css';
 
 const NumberButton = () => {
     return(
-        <div className="numberButton">
-            <h2 className="small-button">9</h2> 
-            <h2 className="small-button">8</h2> 
-            <h2 className="small-button">7</h2> 
-            <h2 className="small-button">6</h2> 
-            <h2 className="small-button">5</h2> 
-            <h2 className="small-button">4</h2> 
-            <h2 className="small-button">3</h2> 
-            <h2 className="small-button">2</h2> 
-            <h2 className="small-button">1</h2> 
+       <div className="numberButton">
+            <h3 className="small-button" id="nine">9</h3> 
+            <h3 className="small-button" id="eight">8</h3> 
+            <h3 className="small-button" id="seven">7</h3> 
+       
+       
+            <h3 className="small-button" id="six">6</h3> 
+            <h3 className="small-button" id="five">5</h3> 
+            <h3 className="small-button" id="four">4</h3> 
+    
+        
+            <h3 className="small-button" id="three">3</h3> 
+            <h3 className="small-button" id="two">2</h3> 
+            <h3 className="small-button" id="one">1</h3> 
         </div>
     )
 }

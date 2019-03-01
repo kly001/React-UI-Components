@@ -1,4 +1,23 @@
-h2{
+.numberButton{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: -400px;
+    width: 200px;
+    height:300px;
+    border: 4px dotted orange;
+}
+
+.actionButton {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    border: 3px dashed purple;  
+}
+.action-button .small-button {
+    margin-left: 250px;
+}
+.big-button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,4 +30,5 @@ h2{
     display: flex;
     width: 50px;
     height: 50px;
+    border: 3px solid cyan
 }
