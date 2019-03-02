@@ -25,7 +25,7 @@ import './Button.css';
 const NumberButton = (props) => {
     return (
         <div className="number-button">
-        <button className={`button-styles ${props.color}`}>{props.text}</button>
+        <button className={`small-button ${props.color}`}>{props.text}</button>
         </div>
     )
 }
