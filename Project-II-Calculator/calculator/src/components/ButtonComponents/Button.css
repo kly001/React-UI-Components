@@ -2,16 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    width: 400px;
-    height:300px;
-    border: 3px solid magenta;
+    margin-left: 50px;
+    width: 200px;
+    height:250px;
 }
 .big-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
-    width: 200px;
+    width: 150px;
     height: 50px;
     background: white;
     font-size: 30px;
@@ -23,10 +22,6 @@
     cursor: pointer;
 }
 .small-button {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    margin-left: 50px;
     width: 50px;
     height: 50px;
     background: white;
@@ -34,10 +29,14 @@
     border: 2px solid black
 }
 .small-button:hover {
+    background: lightgray;
     font-size:35px;
     font-weight: bold;
 }
 .red {
     background: red;
+}
+.red:hover {
+    background:pink;
 }
 
