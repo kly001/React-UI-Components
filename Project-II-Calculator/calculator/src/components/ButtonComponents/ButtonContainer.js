@@ -8,7 +8,7 @@ import ActionButton from "./ActionButton";
 
 const ButtonContainer = () => {
     return (
-        <div className="buttonContainer">
+        <div className="button-container">
            
         <ActionButton text="CLEAR"/>
         <NumberButton text="/" color="red"/>
@@ -16,13 +16,12 @@ const ButtonContainer = () => {
         <NumberButton text="8"/>
         <NumberButton text="7"/>
         <NumberButton text="x" color="red"/>
-          
+        
         <NumberButton text="6"/>
         <NumberButton text="5"/>
         <NumberButton text="4"/>
         <NumberButton text="-" color="red"/>
        
-
         <NumberButton text="3"/>
         <NumberButton text="2"/>
         <NumberButton text="1"/>
@@ -30,7 +29,7 @@ const ButtonContainer = () => {
        
         <ActionButton text="0"/> 
         <NumberButton text="=" color="red"/>
-        </div>
+       </div>
     )
 }
 
