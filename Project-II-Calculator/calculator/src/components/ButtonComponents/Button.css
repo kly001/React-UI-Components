@@ -30,13 +30,14 @@
 }
 .small-button:hover {
     background: lightgray;
-    font-size:35px;
     font-weight: bold;
+    cursor: pointer;
 }
 .red {
     background: red;
 }
 .red:hover {
     background:pink;
+    cursor: pointer;
 }
 

@@ -4,14 +4,13 @@ import "./Button.css";
 import NumberButton from "./NumberButton";
 import ActionButton from "./ActionButton";
 
-
-
 const ButtonContainer = () => {
     return (
         <div className="button-container">
            
         <ActionButton text="CLEAR"/>
         <NumberButton text="/" color="red"/>
+        
         <NumberButton text="9"/>
         <NumberButton text="8"/>
         <NumberButton text="7"/>
