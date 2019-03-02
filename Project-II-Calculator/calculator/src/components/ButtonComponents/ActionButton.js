@@ -1,17 +1,26 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = () => {
+// const ActionButton = () => {
+//     return(
+//         <div className="action-button">
+//          <button className="big-button" id="clear">CLEAR</button>
+//             <button className="small-button" id="div"> / </button>
+//             <button className="small-button" id="mult"> x </button>
+//             <button className="small-button" id="sub"> - </button>
+//             <button className="small-button" id="add"> +</button>
+//             <button className="small-button" id="equ"> = </button>
+//             <button className="big-button" id="zero"> 0 </button>       
+//         </div>
+//     )
+// }
+const ActionButton = (props) => {
     return(
         <div className="action-button">
-         <h2 className="big-button" id="clear">CLEAR</h2>
-            <h2 className="small-button" id="div"> / </h2>
-            <h2 className="small-button" id="mult"> x </h2>
-            <h2 className="small-button" id="sub"> - </h2>
-            <h2 className="small-button" id="add"> +</h2>
-            <h2 className="small-button" id="equ"> = </h2>
-            <h2 className="big-button" id="zero"> 0 </h2>       
+        <button className={`red-button`}>{props.text}</button>   
         </div>
     )
 }
+
+
 export default ActionButton;

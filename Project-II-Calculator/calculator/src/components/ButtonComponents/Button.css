@@ -1,31 +1,34 @@
 .numberButton{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-left: 50px;
-    margin-top: -400px;
-    width: 200px;
-    height:300px;
+    margin-top: -250px;
+    width: 150px;
+    height:200px;
     border: 4px dotted orange;
 }
 
 .actionButton {
     display: flex;
-    flex-direction: column;
-    margin-left: 50px;
+    /* flex-direction: column; */
+    margin-left: 50px;  
+}
+.red-button {
+    margin-left: 210px;
+    width: 50px;
+    height: 50px;
     border: 3px dashed purple;  
 }
-.action-button .small-button {
-    margin-left: 250px;
-}
-.big-button{
+.white-button{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-    width: 200px;
+    width: 50px;
     height: 50px;
     border: 2px solid green;
 }
+
 .small-button {
     display: flex;
     width: 50px;
