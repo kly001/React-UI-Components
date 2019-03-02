@@ -25,7 +25,7 @@ import './Button.css';
 const NumberButton = (props) => {
     return (
         <div className="number-button">
-        <button className={`white-button`}>{props.text}</button>
+        <button className={`white-button ${props.big}`}>{props.text}</button>
         </div>
     )
 }
