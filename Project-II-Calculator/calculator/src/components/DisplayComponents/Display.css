@@ -1,6 +1,6 @@
 h1{
-    /* display: flex;
-    justify-content: flex-end; */
+    display: flex;
+    justify-content: flex-end;
     margin-left: 50px;
     width: 250px;
     height: 50px;
@@ -9,3 +9,4 @@ h1{
     font-size: 40px;
     font-weight: bold;
 }
+
