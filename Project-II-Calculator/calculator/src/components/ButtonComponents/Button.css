@@ -3,38 +3,39 @@
     flex-wrap: wrap;
     align-content: flex-start;
     margin-left: 50px;
-    width: 200px;
-    height:250px;
+    width: 450px;
+    height:600px;
 }
 .big-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 50px;
+    width: 337.5px;
+    height: 95px;
     background: white;
-    font-size: 30px;
+    font-size: 40px;
     border: 2px solid black;  
 }
 .big-button:hover {
     background: lightgray;
-    font-weight: bold;
     cursor: pointer;
 }
 .small-button {
-    width: 50px;
-    height: 50px;
+    width: 112.5px;
+    height: 95px;
     background: white;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: bold;
     border: 2px solid black
 }
 .small-button:hover {
     background: lightgray;
-    font-weight: bold;
     cursor: pointer;
 }
 .red {
     background: red;
+    color: white;
+    font-size: 60px;
 }
 .red:hover {
     background:pink;
