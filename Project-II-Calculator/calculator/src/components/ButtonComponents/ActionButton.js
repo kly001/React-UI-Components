@@ -10,15 +10,5 @@ const ActionButton = (props) => {
     )
 }
 
-const mathSymbol = [
-    {symbol:"/"},
-    {symbol:"x"},
-    {symbol:"-"},
-    {symbol:"+"},
-    {symbol:"="},
-]
-console.log(mathSymbol)
-
-
 
 export default ActionButton;
