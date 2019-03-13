@@ -1,0 +1,48 @@
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: 50px;
+    width: 450px; 
+    height:600px;
+}
+.big-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 337.5px;
+    height: 95px;
+    background: white;
+    font-size: 40px;
+    border: 2px solid black;  
+    
+}
+.big-button:hover {
+    background: lightgray;
+    color: red;
+    cursor: pointer;
+}
+.small-button {
+    width: 112.5px;
+    height: 95px;
+    background: white;
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid black
+}
+.small-button:hover {
+    background: lightgray;
+    color: red;
+    cursor: pointer;
+}
+.red {
+    background: red;
+    color: white;
+    font-size: 60px;
+}
+.red:hover {
+    background:pink;
+    color: black;
+    cursor: pointer;
+}
+

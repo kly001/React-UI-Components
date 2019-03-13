@@ -1,0 +1,18 @@
+.footerIcons {
+    display: flex;
+    margin: 5px 0 0 100px;
+    width: 550px;
+    /* border: 5px solid yellow; */
+  }
+  .footerIcons a { 
+    padding: 10px;
+    color: gray;
+    width: 75px;
+    cursor: pointer;
+    /* border: 3px solid darkred; */
+  }
+  .footerIcons a:hover {
+    color:dodgerblue;
+  }
+  
+  
